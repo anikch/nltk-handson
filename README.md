@@ -1,6 +1,6 @@
 # Extracting, Cleaning and Pre-processing text data using NLTK
 
-1.Write a program to enter a string from user and perform following tasks
+1. Write a program to enter a string from user and perform following tasks
 
 - Write a python function named “Tokenize” which returns the tokenized string
 - Print tokens along with the frequency of each token using the above function
@@ -19,7 +19,7 @@
 - Save these results in a csv file having 3 columns
 
 
-4.Create a python file named “PreProcess” and perform the following tasks.
+4. Create a python file named “PreProcess” and perform the following tasks.
 
 - Copy the function “Tokenize” in this file from question 1
 - Copy thefunction “RemoveStopWords” in this file from question 2
@@ -27,8 +27,8 @@
 - Create a function named “Refine” which accepts a string and call the above 3 functions in the same order i.e. first Tokenize then RemoveStopWords then Lemmatize
 
 5. Read the file “Brexit.docx” and write a function in Python named “GetNGrams” which takes a string and a number ‘n’ as input and returns n-grams from the string.
-6. 
-7. Read the file “Brexit.docx” and write python functions which take a string as an input and returns:
+
+6. Read the file “Brexit.docx” and write python functions which take a string as an input and returns:
 - Number of Nouns (all forms of noun). Take function name as “NounsCount”
 - Number of Pronouns (all forms). Take function name as “PronounsCount”
 - Number of Adjectives (all forms).Take function name as “AdjectivesCount”
